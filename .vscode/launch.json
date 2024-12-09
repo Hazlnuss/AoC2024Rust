@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "lldb",
             "request": "launch",
@@ -13,7 +14,7 @@
                     "test",
                     "--no-run",
                     // replace `01` here with the solution you like to debug.
-                    "--bin=01",
+                    "--bin=02",
                     "--package=advent_of_code"
                 ],
             },
@@ -28,7 +29,7 @@
                 "args": [
                     "build",
                     // replace `01` here with the solution you like to debug.
-                    "--bin=01",
+                    "--bin=02",
                     "--package=advent_of_code"
                 ],
             },
